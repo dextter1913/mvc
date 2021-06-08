@@ -9,6 +9,10 @@
 </head>
 <body>
     <center><h1>Practicando MVC</h1></center>
-    
+    <?php 
+        require_once 'autoload.php';
+        $controlador = new UsuarioController();
+        $controlador->mostrarTodos();
+    ?>
 </body>
 </html>
