@@ -10,7 +10,7 @@
 <body>
     <center><h1>Practicando MVC</h1></center>
     <?php 
-        require_once 'autoload.php';
+        require_once 'controller/usuario.php';
         $controlador = new UsuarioController();
         $controlador->mostrarTodos();
     ?>
